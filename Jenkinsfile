@@ -9,7 +9,7 @@ import hudson.model.*
 			stage('Create Pipeline') {
 				steps {
 					script {
-						echo "Hello world!"
+						echo "Hello world! count: 2"
 					}
 				}
 			}
