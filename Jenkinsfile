@@ -1,7 +1,5 @@
 import hudson.model.*
 
-def call(Closure body) {
-
 	pipeline {
 
 		//agent { node { label 'maven' } }
@@ -24,4 +22,3 @@ def call(Closure body) {
 			}
 		}
 	}
-}
