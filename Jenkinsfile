@@ -9,7 +9,7 @@ import hudson.model.*
 			stage('Create Pipeline') {
 				steps {
 					script {
-						echo "Hello world! from dummy feature"
+						echo "Hello world! from dummy feature 1"
 					}
 				}
 			}
