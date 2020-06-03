@@ -1,4 +1,6 @@
 import hudson.model.*
+import groovy.json.JsonSlurper
+import groovy.json.JsonBuilder
 
 	pipeline {
 
@@ -10,6 +12,9 @@ import hudson.model.*
 				steps {
 					script {
 						echo "Hello world! from dummy feature 6"
+						String config = readFile file: 'pipeline-config.json'
+						def configMap = new JsonSlurper().parseText(config)
+						println(new JsonBuilder(configMap).toPrettyString())
 					}
 				}
 			}
