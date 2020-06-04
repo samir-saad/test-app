@@ -9,7 +9,7 @@
     },
     {
       "taskType": "DEPENDENCY_CHECK",
-      "enable": false
+      "enable": true
     }
   ]
 }
