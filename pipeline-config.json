@@ -4,7 +4,7 @@
   },
   "stages": [
     {
-      "taskType": "QUALITY_SCANNING ",
+      "taskType": "QUALITY_SCANNING",
       "enable": false
     },
     {
