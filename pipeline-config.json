@@ -1,0 +1,15 @@
+{
+  "primaryConfigRepo": {
+    "branch": "develop"
+  },
+  "stages": [
+    {
+      "taskType": "QUALITY_SCANNING",
+      "enable": true
+    },
+    {
+      "taskType": "DEPENDENCY_CHECK",
+      "enable": true
+    }
+  ]
+}
