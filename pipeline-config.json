@@ -9,21 +9,7 @@
     },
     {
       "taskType": "DEPENDENCY_CHECK",
-      "engine": {
-        "params": "-Ddependency-check-maven.cveValidForHours=12 -Ddependency-check-maven.failBuildOnCVSS=10 -Ddependency-check-maven.suppressionFile=../primary-config-repo/build/maven/dependency-check-suppressions.xml"
-      }
-    },
-    {
-      "taskType": "CONTAINER_BUILD",
-      "platform": {
-        "project": "midtier"
-      }
-    },
-    {
-      "taskType": "DEPLOY_DEV",
-      "platform": {
-        "project": "midtier"
-      }
+      "enable": false
     }
   ]
 }
