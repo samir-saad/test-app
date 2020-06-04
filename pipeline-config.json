@@ -5,7 +5,7 @@
   "stages": [
     {
       "taskType": "QUALITY_SCANNING",
-      "enable": false
+      "enable": true
     },
     {
       "taskType": "DEPENDENCY_CHECK",
